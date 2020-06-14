@@ -1,3 +1,8 @@
+#java
+*.class
+*.jar
+*.war
+
 .idea
 src/com/company
 orientacaoaobjetos.iml
