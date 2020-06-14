@@ -4,13 +4,13 @@ public class ProgramaReferencia {
 
         // Referencia de memoria
         Autor autor = new Autor();
-        autor.nome = "Rodrigo";
+        autor.setNome("Rodrigo");
 
         Livro livro = new Livro();
-        livro.autor = autor;
+        livro.setNome(autor.getNome());
 
-        livro.autor.nome = "Guilherme";
+        livro.setNome("Guilherme");
 
-        System.out.println(autor.nome);
+        System.out.println(autor.getNome());
     }
 }
