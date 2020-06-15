@@ -6,11 +6,11 @@ public class ProgramaReferencia {
         Autor autor = new Autor();
         autor.setNome("Rodrigo");
 
-        Livro livro = new Livro();
+        /*Livro livro = new Livro();
         livro.setNome(autor.getNome());
 
         livro.setNome("Guilherme");
 
-        System.out.println(autor.getNome());
+        System.out.println(autor.getNome());*/
     }
 }

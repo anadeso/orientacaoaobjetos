@@ -12,16 +12,16 @@ public class Livro {
     private Autor autor;
 
     // Sobrecarda  (OVERLOADED) de construtor
-    public Livro() {
+   /* public Livro() {
         this.isbn = "000-00-00000-00-0";
-    }
+    }*/
 
     // O valor ISBN so sera inicializado quando o construtor com um Autor fosse chamado
     // Para isso podemos encadear a chamada dos construtorres utilizando a palavra reservada this
     public Livro(Autor autor) {
-        this();
+       // this();
         this.autor = autor;
-
+        this.isbn ="000-00-00000-00-0";
     }
 
     public String getNome() {

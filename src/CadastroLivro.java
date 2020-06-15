@@ -32,5 +32,8 @@ public class CadastroLivro {
         // Associando o objeto outroAutorCriado ao nosso outroLivro
         outroLivro.setAutor(outroAutorCriado);
         livro.mostraDetalhes();
+
+        Ebook ebook = new Ebook(outroAutorCriado);
+        ebook.setNome("Java 8 pratico");
     }
 }

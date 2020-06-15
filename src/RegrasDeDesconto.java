@@ -2,32 +2,32 @@ public class RegrasDeDesconto {
 
     public static void main(String[] args) {
 
-        Livro livro = new Livro();
+        Autor autor = new Autor();
+        autor.setNome("Rodrigo Turini");
+
+        Livro livro = new Livro(autor);
         livro.setValor(59.90);
 
-        System.out.println("Valor autal: " +livro.getValor());
 
-        // Aqui tem um problema pois nada obriga o desenvolvedor a usar
-        // o metodo aplicaDesconto, podendo fazer conforme exemplo 1
-        // Aplicando um desconto muito mairo que a nossa regra de negocio,
-        // Isso acontece pois nosso atributo valor da classe Livro esta pub.
-        // Temos que usar o modificador de visibilidade private
+        // Aqui tem um problema pois nada obriga o desenvolvedor a usar o metodo aplicaDesconto, podendo fazer
+        // conforme exemplo 1 aplicando um desconto muito mairo que a nossa regra de negocio, isso acontece pois
+        // nosso atributo valor da classe Livro esta publico, temos que usar o modificador de visibilidade private
 
-        if (!livro.aplicaDesconto(0.1)){
+        if (!livro.aplicaDesconto(0.3)){
             System.out.println("Desconto nao pode ser maior do que 30%");
 
         } else {
             System.out.println("Valor com desconto: " +livro.getValor());
         }
 
-        // Exemplo 1
-        /*Livro livro1 = new Livro();
-        livro.valor = 59.90;
+        Ebook ebook = new Ebook(autor);
+        ebook.setValor(29.90);
 
-        System.out.println("Valor autal: " +livro.valor);
-
-        livro1.valor -= livro1.valor * 0.4;
-        System.out.println("Valor com desconto: " +livro.valor);*/
+        if (!ebook.aplicaDesconto(0.3)){
+            System.out.println("Desconto no ebook nao pode er maior do que 15%");
+        } else {
+            System.out.println("Valor do ebook com desonto: " +ebook.getValor());
+        }
 
     }
 
