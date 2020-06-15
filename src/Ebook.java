@@ -25,6 +25,7 @@ public class Ebook extends Livro{
         // this, deixando claro que é da classe pai. Nesse caso tambem poderiamos utilizar o super.
         double desconto = this.getValor() * porcentagem;
         this.setValor(this.getValor() - desconto);
+        System.out.println("aplicando desconto no Ebbok");
         return  true;
     }
     /*
