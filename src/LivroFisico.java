@@ -1,11 +1,11 @@
-public class LivroFisico extends Livro {
+public class LivroFisico extends Livro implements Promocional {
 
     public LivroFisico(Autor autor) {
         super(autor);
     }
 
     @Override
-    public boolean aplicaDesconto(double porcentagem) {
+    public boolean aplicaDescontoDe(double porcentagem) {
         return false;
     }
 

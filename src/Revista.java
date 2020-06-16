@@ -1,4 +1,4 @@
-public class Revista implements Produto{
+public class Revista implements Produto, Promocional{
 
     private String nome;
     private String descricao;

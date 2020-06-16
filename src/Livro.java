@@ -79,7 +79,7 @@ public abstract class  Livro implements Produto{
         System.out.println("---");
     }
 
-    public abstract boolean aplicaDesconto(double porcentagem);
+    //public abstract boolean aplicaDesconto(double porcentagem);
 
     // Verificar se existe um autor ou nao
     public boolean temAutor(){

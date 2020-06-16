@@ -1,4 +1,4 @@
-public class Ebook extends Livro{
+public class Ebook extends Livro implements Promocional{
 
     private String waterMark;
 
@@ -16,7 +16,7 @@ public class Ebook extends Livro{
 
     // Sobrescrevendo o metodo da super classe Livro
     @Override
-    public boolean aplicaDesconto(double porcentagem) {
+    public boolean aplicaDescontoDe(double porcentagem) {
 
         if (porcentagem > 0.15){
             return false;
