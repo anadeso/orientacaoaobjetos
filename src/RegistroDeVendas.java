@@ -21,6 +21,16 @@ public class RegistroDeVendas {
         carrinhoDeCompras.adiciona(fisico);
         carrinhoDeCompras.adiciona(ebook);
 
+        Produto[] produtos = carrinhoDeCompras.getProdutos();
+
+       // for (int i = 0; i <  produtos.length; i++){
+        for (Produto produto : produtos) {
+            //Produto produto = produtos[i];
+            if (produto != null) {
+                System.out.println(produto.getValor());
+            }
+        }
+
         System.out.println("Total " + carrinhoDeCompras.getTotal());
     }
 }
