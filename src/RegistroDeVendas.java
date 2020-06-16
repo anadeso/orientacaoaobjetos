@@ -1,3 +1,5 @@
+import java.awt.image.AreaAveragingScaleFilter;
+
 public class RegistroDeVendas {
 
     public static void main(String[] args) {
@@ -23,14 +25,23 @@ public class RegistroDeVendas {
 
         Produto[] produtos = carrinhoDeCompras.getProdutos();
 
-       // for (int i = 0; i <  produtos.length; i++){
-        for (Produto produto : produtos) {
-            //Produto produto = produtos[i];
-            if (produto != null) {
-                System.out.println(produto.getValor());
+        System.out.println("Total " + carrinhoDeCompras.getTotal());
+
+        for (int i = 0; i <= produtos.length; i++) {
+            try {
+                // for (Produto produto : produtos) {
+                Produto produto = produtos[i];
+                if (produto != null) {
+                    System.out.println(produto.getValor());
+                }
+                // Temos MULTICATCH
+            } catch (ArrayIndexOutOfBoundsException | NullPointerException e){
+                System.out.println("deu exception no indice: " +i);
+                System.out.println("foi uma das duas");
             }
         }
 
-        System.out.println("Total " + carrinhoDeCompras.getTotal());
+        System.out.println("Fui Executado!");
+
     }
 }
