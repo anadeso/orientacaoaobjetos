@@ -5,8 +5,8 @@ public class RegrasDeDesconto {
         Autor autor = new Autor();
         autor.setNome("Rodrigo Turini");
 
-        Livro livro = new Livro(autor);
-        livro.setValor(59.90);
+        Livro livro = new MiniLivro(autor);
+        livro.setValor(39.90);
 
 
         // Aqui tem um problema pois nada obriga o desenvolvedor a usar o metodo aplicaDesconto, podendo fazer
@@ -24,9 +24,9 @@ public class RegrasDeDesconto {
         ebook.setValor(29.90);
 
         if (!ebook.aplicaDesconto(0.3)){
-            System.out.println("Desconto no ebook nao pode er maior do que 15%");
+            System.out.println("Desconto no ebook nao pode ser maior do que 15%");
         } else {
-            System.out.println("Valor do ebook com desonto: " +ebook.getValor());
+            System.out.println("Valor do ebook com desconto: " +ebook.getValor());
         }
 
     }
