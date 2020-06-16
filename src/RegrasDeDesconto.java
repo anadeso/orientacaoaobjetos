@@ -13,17 +13,17 @@ public class RegrasDeDesconto {
         // conforme exemplo 1 aplicando um desconto muito mairo que a nossa regra de negocio, isso acontece pois
         // nosso atributo valor da classe Livro esta publico, temos que usar o modificador de visibilidade private
 
-        if (!livro.aplicaDesconto(0.3)){
+        /*if (!livro.aplicaDescontoDe(0.3)){
             System.out.println("Desconto nao pode ser maior do que 30%");
 
         } else {
             System.out.println("Valor com desconto: " +livro.getValor());
-        }
+        }*/
 
         Ebook ebook = new Ebook(autor);
         ebook.setValor(29.90);
 
-        if (!ebook.aplicaDesconto(0.3)){
+        if (!ebook.aplicaDescontoDe(0.3)){
             System.out.println("Desconto no ebook nao pode ser maior do que 15%");
         } else {
             System.out.println("Valor do ebook com desconto: " +ebook.getValor());
