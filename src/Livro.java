@@ -79,17 +79,7 @@ public abstract class  Livro {
         System.out.println("---");
     }
 
-    public boolean aplicaDesconto(double porcentagem){
-        // this, atributo dessa classe Livro, usamos para evitar ambiguiade
-
-        if (porcentagem > 0.3){
-            System.out.println("Desconto nao pode ser maior do que 30%");
-            return  false;
-        }
-        this.valor -= this.valor * porcentagem;
-        System.out.println("Aplicando desconto da classe Livro");
-        return true;
-    }
+    public abstract boolean aplicaDesconto(double porcentagem);
 
     // Verificar se existe um autor ou nao
     public boolean temAutor(){

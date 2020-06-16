@@ -4,6 +4,9 @@ public class MiniLivro extends Livro {
         super(autor);
     }
 
-
+    @Override
+    public boolean aplicaDesconto(double porcentagem) {
+        return false;
+    }
 
 }
