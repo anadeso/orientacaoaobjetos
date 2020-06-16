@@ -8,7 +8,7 @@ public class CadastroLivro {
         autorCriado.setCpf("123.456.789.10");
 
         // Criar objeto e automaticamente espaco na memoria
-        Livro livro = new Livro(autorCriado);
+        Livro livro = new LivroFisico(autorCriado);
         livro.setNome("Java 8 Prático");
         livro.setDescricao("Novos recurso da linguagem");
         livro.setValor(59.90);
@@ -23,7 +23,7 @@ public class CadastroLivro {
         outroAutorCriado.setEmail("paulo.silveira@caelum.com.br");
         outroAutorCriado.setCpf("321.543.645.33");
 
-        Livro outroLivro = new Livro(outroAutorCriado);
+        Livro outroLivro = new LivroFisico(outroAutorCriado);
         livro.setNome("Lógica de programação");
         livro.setDescricao("Crie seus primeiros programas");
         livro.setValor(59.90);

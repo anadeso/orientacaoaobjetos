@@ -1,7 +1,7 @@
 
 import javax.swing.*;
 
-public class Livro {
+public abstract class  Livro {
 
     // Atributos da classe
     private String nome;
