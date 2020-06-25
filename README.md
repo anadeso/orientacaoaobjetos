@@ -1,6 +1,6 @@
 <h3 align="center">
          [![](https://i.imgur.com/VmIH7Uf.png)](https://i.imgur.com/VmIH7Uf.png)
-    <b></b>  
+    <br>
     <br>
 </h3>
 
