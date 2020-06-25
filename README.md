@@ -1,9 +1,7 @@
 
 <h3 align="center">
-      <img [![](https://i.imgur.com/VmIH7Uf.png)](https://i.imgur.com/VmIH7Uf.png)>
-    <br><br>
-    <b></b>  
-    <br>
+     [![](https://i.imgur.com/VmIH7Uf.png)](https://i.imgur.com/VmIH7Uf.png)
+ 
 </h3>
 
 ### Programação Orientada a Objetos em Java: uma abordagem simples para entendimento e aplicação no dia a dia.
