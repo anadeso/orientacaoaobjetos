@@ -1,6 +1,4 @@
 
-[![](https://i.imgur.com/VmIH7Uf.png)](https://i.imgur.com/VmIH7Uf.png =center)
-
 <p align="center">
   <img  src="https://i.imgur.com/VmIH7Uf.png ">
 </p>
