@@ -72,6 +72,7 @@ São ações que uma classe tem, por exemplo, na nossa classe Livro existe um m�
 ------------
 
 - Referência a objetos
+
 Quando instanciamos um novo objeto com a palavra new, um Autor, guardamos em sua variável uma referência para esse objeto, e não seus valores. Ou seja, a variável autor não guarda o valor de um nome, email e outros atributos da classe Autor, mas sim uma forma de acessar esses atributos do autor em memória.
 
     public class CadastroLivro {
@@ -97,6 +98,7 @@ Quando instanciamos um novo objeto com a palavra new, um Autor, guardamos em sua
 
 
 - Construtor
+
 Toda classe tem um construtor e ele é iniciado quando criamos um objeto dessa classe, tem o mesmo nome da classe, não tem um retorno declarado. O construtor pode ser vazio ou com argumentos. Obs: O Construtor pode parecer um método, mas não é!
 
 
@@ -121,8 +123,6 @@ Toda classe tem um construtor e ele é iniciado quando criamos um objeto dessa c
 
 ------------
 
-
-
     public class entendendoConstrutor(){
     
     		public static void main(String[] args) {
@@ -138,6 +138,7 @@ Toda classe tem um construtor e ele é iniciado quando criamos um objeto dessa c
 
 
 - Compisição
+
 Perceba que na classe livro está falando informações do autor, vamos inserir os atributos do autor na própria classe livro? Não, pois isso não é de responsabilidade da classe livro, vamos criar uma classe Autor.
 
 
@@ -157,9 +158,6 @@ Ta...mas como eu posso acessar as informações do Autor na minha classe Livro? 
         // Composicao, quando uma classe pode ter outra classe como atributo.
         private Autor autor;
 
-Nome Ambíguos e o THIS
-Metodo com retorno
-Construtor
 
 
 
