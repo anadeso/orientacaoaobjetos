@@ -1,5 +1,5 @@
 
-[![](https://i.imgur.com/VmIH7Uf.png)](https://i.imgur.com/VmIH7Uf.png)
+<center>[![](https://i.imgur.com/VmIH7Uf.png)](https://i.imgur.com/VmIH7Uf.png)</center>
 
 
 
