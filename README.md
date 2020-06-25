@@ -24,7 +24,7 @@ Para compreender os paradigmas da linguagem orientada a objeto, desenvolvi uma a
 
 Material de apoio: [Apêndice - Instalação do Java](https://www.caelum.com.br/apostila-java-orientacao-objetos/apendice-instalacao-do-java/ "Apêndice - Instalação do Java")
 
-# 📌 Alguns conceitos importantes
+# 📌 Conceitos importantes
 
 - Classe x Objeto
 
