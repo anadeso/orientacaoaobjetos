@@ -4,10 +4,14 @@
   <img  src="https://i.imgur.com/7cTB4or.png">
 </p>
 
+# 📌 Sobre
+
 Para compreender os paradigmas da linguagem orientada a objeto, desenvolvi uma aplicação de uma livraria, no qual utilizei os principais pilares da POO.
 
 - Abstração
 - Encapsulamento
 - Herança
 - Polimorfismo
+
+# 📌 Pré-requisitos
 
