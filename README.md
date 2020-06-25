@@ -1,7 +1,7 @@
 
 
 <h3 align="center">
-     [![](https://i.imgur.com/VmIH7Uf.png)](https://i.imgur.com/VmIH7Uf.png)
+      <img alt="" src="[![](https://i.imgur.com/VmIH7Uf.png)](https://i.imgur.com/VmIH7Uf.png)">
     <br><br>
     <b></b>  
     <br>
