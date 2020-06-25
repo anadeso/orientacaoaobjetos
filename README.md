@@ -6,9 +6,7 @@
 
 # 📌 Sobre
 
-Para compreender os paradigmas da linguagem orientada a objeto, desenvolvi uma aplicação de uma livraria, no qual utilizei os principais pilares da POO.
-
-- Abstração
+Para compreender os paradigmas da linguagem orientada a objeto, desenvolvi uma aplicação de uma livraria, no qual utilizei os principais pilares da POO, com a OO nosso código fica organizado e evitamos repetição.
 - Encapsulamento
 - Herança
 - Polimorfismo
@@ -27,6 +25,13 @@ Para compreender os paradigmas da linguagem orientada a objeto, desenvolvi uma a
 Material de apoio: [Apêndice - Instalação do Java](https://www.caelum.com.br/apostila-java-orientacao-objetos/apendice-instalacao-do-java/ "Apêndice - Instalação do Java")
 
 # 📌 Alguns conceitos que encntrará no projeto
+
+- Classe x Objeto: 
+
+Uma classe é o nosso molde, uma especificação que define o que um objeto desse tipo deverá ter e como ele deve se comportar. Vamos abstrair um pouco, nossa livraria poderá ter milhares de livros(objetos), mas existirá apenas uma classe Livro (molde). Cada objeto que criarmos do tipo Livro terá seus próprios valores, logo cada livro terá o seu próprio nome, sua descrição, um valor.
+
+[![](https://i.imgur.com/Y37rnLn.png)](https://i.imgur.com/Y37rnLn.png)
+
 
 
 
