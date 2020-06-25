@@ -51,6 +51,8 @@ São ações que uma classe tem, por exemplo, na nossa classe Livro existe um m�
             System.out.println();
             
         }   
+
+
 ------------
 
 
@@ -69,7 +71,6 @@ São ações que uma classe tem, por exemplo, na nossa classe Livro existe um m�
 
 - Referência a objetos
 Quando instanciamos um novo objeto com a palavra new, um Autor, guardamos em sua variável uma referência para esse objeto, e não seus valores. Ou seja, a variável autor não guarda o valor de um nome, email e outros atributos da classe Autor, mas sim uma forma de acessar esses atributos do autor em memória.
-
 
     public class CadastroLivro {
     
@@ -154,6 +155,9 @@ Ta...mas como eu posso acessar as informações do Autor na minha classe Livro? 
         // Composicao, quando uma classe pode ter outra classe como atributo.
         private Autor autor;
 
+Nome Ambíguos e o THIS
+Metodo com retorno
+Construtor
 
 
 
