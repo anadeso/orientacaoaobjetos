@@ -1,4 +1,6 @@
-<center> [![](https://i.imgur.com/VmIH7Uf.png)](https://i.imgur.com/VmIH7Uf.png)</center>
+<center> 
+  [![](https://i.imgur.com/VmIH7Uf.png)](https://i.imgur.com/VmIH7Uf.png)
+</center>
 
 ### Programação Orientada a Objetos em Java: uma abordagem simples para entendimento e aplicação no dia a dia.
 
