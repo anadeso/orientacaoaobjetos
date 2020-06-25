@@ -27,11 +27,13 @@ Material de apoio: [Apêndice - Instalação do Java](https://www.caelum.com.br/
 # 📌 Alguns conceitos importantes
 
 - Classe x Objeto
+
 Uma classe é o nosso molde, uma especificação que define o que um objeto desse tipo deverá ter e como ele deve se comportar(métodos). Vamos abstrair um pouco, nossa livraria poderá ter milhares de livros(objetos), mas existirá apenas uma classe Livro (molde). Cada objeto que criarmos do tipo Livro terá seus próprios valores, logo cada livro terá o seu próprio nome, sua descrição, um valor.
 
 [![](https://i.imgur.com/9BqLo8V.png)](https://i.imgur.com/9BqLo8V.png)
 
 - Método
+
 São ações que uma classe tem, por exemplo, na nossa classe Livro existe um método de mostrar detalhes do livro como nome, descrição e valor. A classe Livro possui método que  no qual é void. Void representa a ausência de um retorno. Por exemplo, como saber se um livro tem ou não um autor? Um alternativa seria criar um método temAutor, tendo um boolean como retorno. 
 
     
