@@ -28,9 +28,28 @@ Material de apoio: [Apêndice - Instalação do Java](https://www.caelum.com.br/
 
 - Classe x Objeto: 
 
-Uma classe é o nosso molde, uma especificação que define o que um objeto desse tipo deverá ter e como ele deve se comportar. Vamos abstrair um pouco, nossa livraria poderá ter milhares de livros(objetos), mas existirá apenas uma classe Livro (molde). Cada objeto que criarmos do tipo Livro terá seus próprios valores, logo cada livro terá o seu próprio nome, sua descrição, um valor.
+Uma classe é o nosso molde, uma especificação que define o que um objeto desse tipo deverá ter e como ele deve se comportar(métodos). Vamos abstrair um pouco, nossa livraria poderá ter milhares de livros(objetos), mas existirá apenas uma classe Livro (molde). Cada objeto que criarmos do tipo Livro terá seus próprios valores, logo cada livro terá o seu próprio nome, sua descrição, um valor.
 
-[![](https://i.imgur.com/Y37rnLn.png)](https://i.imgur.com/Y37rnLn.png)
+[![](https://i.imgur.com/s5snDPY.png)](https://i.imgur.com/s5snDPY.png)
+- Compisição
+
+Perceba que na classe livro está falando informações do autor, vamos inserir os atributos do autor na própria classe livro? Não, pois isso não é de responsabilidade da classe livro, vamos criar uma classe Autor.
+
+    public class Autor {
+	
+        private String nome;
+        private String email;
+        private String cpf;`
+
+Ta...mas como eu posso acessar as informações do Autor na minha classe Livro? Podemos adicionar na classe Livro um atributo do tipo Autor. Uma classe pode ter outra classe como atributo, e isso chamamos de composição.
+
+    public class Livro {
+    
+        private String nome;
+        private String descricao;
+        private double valor;
+        // Composicao, quando uma classe pode ter outra classe como atributo.
+        private Autor autor;
 
 
 
